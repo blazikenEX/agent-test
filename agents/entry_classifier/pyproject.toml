@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "entry-classifier"
+version = "0.1.0"
+description = "Entry Classifier agent for The Context Wrangler pipeline"
+requires-python = ">=3.12"
+dependencies = ["anthropic>=2.3", "evidence-counter"]
+
+[tool.uv.sources]
+evidence-counter = { path = "../evidence_counter", editable = true }
+
+[dependency-groups]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
