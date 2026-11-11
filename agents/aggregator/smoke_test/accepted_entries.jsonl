@@ -1,5 +1,0 @@
-{"entry_id":"northwind#001","workspace":"northwind","sources":["review.md"],"specific":"A named client team promised a date before its trial.","general":"A team committed to a delivery date before validating capacity.","route":"amber","k":3,"cluster_id":"c-capacity"}
-{"entry_id":"tailspin#002","workspace":"tailspin","sources":["notes.md"],"specific":"A second named team made the same mistake.","general":"A commercial commitment was made before operational capacity was tested.","route":"amber","k":3,"cluster_id":"c-capacity"}
-{"entry_id":"woodgrove#004","workspace":"woodgrove","sources":["email.eml"],"specific":"A third named team was pressed for a date.","general":"External pressure led a team to commit before completing a capacity trial.","route":"amber","k":3,"cluster_id":"c-capacity"}
-{"entry_id":"contoso#003","workspace":"contoso","sources":["retrospective.md"],"specific":"A named manager introduced an internal review.","general":"A mandatory peer review caught configuration errors before release.","route":"green","k":null,"cluster_id":null}
-
